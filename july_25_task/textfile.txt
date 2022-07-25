@@ -1,0 +1,25 @@
+#AWS: Amazon Web services 
+#There so many services are avilable in AWS 
+#When compare other servies AWS has more infrastruture 
+#AWS Compute services 
+   1.EC2:Amazon Elastic Compute Cloud
+     ~Ec2 is like a RAW Server
+     EC2 components are
+     1) AMI
+     2) Instance type
+     3) Amazon Elastic Block Store(EBS)
+     #Learned creating a instance 
+     EBS Types
+     1) General Purpose
+     2) Provisioned IOPS
+     3) Throughput Optimized HD
+     4) Cold HDD
+     5) Magnetic 
+     #But For Tier we can use general purpose one 
+   2.Lambda:Lamda works in the background
+   3.Elastic Beanstalk: EB is to host a application
+   4.Elastic load Balancer:Distributes the workload on the deployed instances
+   5.Autoscalling:It scales up and down automatically
+#AWS Storage services
+   1.S3:Its like a storage here the files are stored in a buckets
+   2.Cloudfront:Content Delivery Network 
