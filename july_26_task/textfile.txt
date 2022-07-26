@@ -1,0 +1,22 @@
+S3:Simple Storage Servie
+learned aws cli 
+aws configure
+    access key
+    secret access key 
+    these keys credit as IAMUSER
+awsd sts get-caller-identity
+#to get user infomation 
+aws s3 ls
+#to get the list of buckets
+aws s3 mb s3://bucket-name
+#to create a bucket 
+aws s3 rb s3://bucket-name
+#to remove a bucket
+aws s3 cp localfile-path s3://bucket-name
+#to copy a file from local to bucket
+aws s3 rm s3://bucket-name/filename
+#to remove a object in a bucket
+aws s3 ls s3://bucket-name
+#to list objects in a bucket
+aws s3 cp s3://bucket-name localpathy
+#to copy a file from a bucket to localpath
