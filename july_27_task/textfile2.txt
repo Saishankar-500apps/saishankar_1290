@@ -1,0 +1,15 @@
+VPC : Virtual Private Cloud 
+Today I have done EC2 + VPC + NAT Gateway 
+    -firstly created a vpc by selecting a ip network range it would be like 10.0.0.0/(16-28) i selected 16 so 65536ips can be allocated 
+    -then two subnets are created and given seperate ip ranges for each like 10.0.0.0/24 and for other 10.0.1.0/24 it will allocate 256 ips each but 5 are reserved by AWS 
+    -and then internet gateway is created and then attached it to vpc 
+    -one route table is created and another one is created directly where for one route table internet access is given by providing 0.0.0.0/0 and internet gateway 
+     it will act as a public subnet and other one as private one
+    -so two route tables are connected to two subnets by changing in the subnets settings 
+    -then two EC2 instances are created while creating we have to change the default vpc to created vpc 
+    -now a vpc is created with two subnets of two ubunu instances(example) with a internet gateway
+    -internet gateway is for providing internet and for access the public instance 
+    -for accessing private instance we have to use NAT gateway (Network Address Translation) it is only outgoing
+    -here two types of securities are present namely 1)NACL (allows,deny) and 2)Security group (allows)
+    
+
