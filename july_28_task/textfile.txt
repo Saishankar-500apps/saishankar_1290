@@ -1,0 +1,11 @@
+EBS:Elastic block storage 
+    EBS is a block level storage and persistent also
+    whereas Instance storage is a temporary and block level storage
+    when ever a instance is terminated instance storage gets deleted but ebs volume will present 
+    but reterving data from instance is faster than ebs volumes
+    for one instance mulitple ebs volumes can be attach and also for one ebs volume multiple ec2 instances can be attach
+    cretaed a instance and vloume and attach to the instance 
+    and created a snapshot and attached to the volume 
+    restoring the data from snapshot
+    snapshots follows incremantal backup
+    all the snapshoprts are backup to S3 services only but those invisible to user  
