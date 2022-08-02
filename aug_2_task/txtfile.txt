@@ -1,0 +1,11 @@
+#Today i have done autoscaling and load balancing
+Autoscaling:Autoscaling scales up or down automatically
+    two types
+    1)Horizontal
+    2)Vertical
+Elastic Load Balancer :Distributes the worlkload on instances
+    three types
+    1)Application load Balancer
+    2)Network load Balancer
+    3)Gateway load Balancer 
+    
