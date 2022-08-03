@@ -1,0 +1,11 @@
+Today i have learnt about ECS
+#ECS is a Elastic container service
+ECS can be done in two ways
+    1)using instances Ec2
+    2)using Fargate
+Fargate setup
+    1)Container Defintion
+    2)Task Definition
+    3)service
+    4)cluster
+    
