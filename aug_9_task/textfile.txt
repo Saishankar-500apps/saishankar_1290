@@ -1,0 +1,18 @@
+Today i have learned Introduction to PMTA
+    -PMTA means power message transfer agent
+    -Its a powerful software used to send mails over the internet
+    -Simple its a mail sender service like SMTP
+    Advantages: 
+        1)high performance
+        2)stability
+        3)deliverability
+    DKIM:
+        -Domain keys identified mail
+        -Its an email authentication technique
+        -by giving a digital signature
+        -the validation done on server level and not visible to end-users
+    SPF:
+        -Sender policy framework
+        -its also an email authentication technique
+        -which is used to prevent spammers from sending messages on behalf of the domains
+        
